@@ -44,10 +44,10 @@ const footerSections = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Mail, href: '#', label: 'Email' }
+  { icon: Github, href: 'https://github.com/ZINCOR', label: 'GitHub' },
+  { icon: Twitter, href: 'https://x.com/RohanNaagar666', label: 'Twitter' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/rohannaagar666', label: 'LinkedIn' },
+  { icon: Mail, href: 'rohannaagar666@outlook.com', label: 'Email' }
 ];
 
 export const Footer = () => {
@@ -128,9 +128,9 @@ export const Footer = () => {
         <div className="border-t border-border pt-8 flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-text-secondary">
           <p>&copy; 2024 ZINCOR. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition-colors duration-200">Privacy Policy</a>
-            <a href="#" className="hover:text-foreground transition-colors duration-200">Terms of Service</a>
-            <a href="#" className="hover:text-foreground transition-colors duration-200">Cookie Policy</a>
+            <a href="https://rohancyberops.github.io/#LegalPage" className="hover:text-foreground transition-colors duration-200">Privacy Policy</a>
+            <a href="https://rohancyberops.github.io/#LegalPage" className="hover:text-foreground transition-colors duration-200">Terms of Service</a>
+            <a href="https://rohancyberops.github.io/#LegalPage" className="hover:text-foreground transition-colors duration-200">Cookie Policy</a>
           </div>
         </div>
       </div>

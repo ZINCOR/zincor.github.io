@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
-import spaceBg from '@/assets/space-bg.jpg';
+import spaceBg from '@/assets/futuristic-ai-chip-circuit-board.jpg';
 
 export const Hero = () => {
   return (
