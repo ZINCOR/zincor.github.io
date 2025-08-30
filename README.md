@@ -1,73 +1,117 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/f7e5b0f8-225d-4131-bdf8-46bd4babaaed
+# ZINCOR —  Next-Gen Web
 
-## How can I edit this code?
+Ship faster with ZINCOR.
+A transparent-first, enterprise-grade web experience built with React, TypeScript, TailwindCSS, and shadcn-ui.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f7e5b0f8-225d-4131-bdf8-46bd4babaaed) and start prompting.
+ZINCOR is the official website of **ZINCOR**, a modern software/AI organization.
+The site is designed with a **glassmorphism + transparent canvas architecture**, ensuring a forward-compatible, minimal, and executive-grade presence on the web.
 
-Changes made via Lovable will be committed automatically to this repo.
+**Core Principles**
 
-**Use your preferred IDE**
+* **Transparency-first** — true transparency (not fake frosted effects).
+* **Enterprise-grade UX** — modern, minimal, responsive.
+* **Future-ready** — leveraging TypeScript, React, Tailwind, and shadcn-ui.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+* **[React](https://react.dev/)** — UI framework
+* **[TypeScript](https://www.typescriptlang.org/)** — type safety
+* **[Vite](https://vitejs.dev/)** — fast build & dev server
+* **[Tailwind CSS](https://tailwindcss.com/)** — utility-first styling
+* **[shadcn/ui](https://ui.shadcn.com/)** — accessible component system
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📦 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1. Clone the repository
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/ZINCOR/zincor.github.io.git
+cd zincor.github.io
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Site runs at **[http://localhost:5173](http://localhost:5173)** by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🌐 Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ZINCOR is deployed via **GitHub Pages**. Any commits to `main` are automatically published.
 
-## What technologies are used for this project?
+For production builds:
 
-This project is built with:
+```bash
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧩 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/f7e5b0f8-225d-4131-bdf8-46bd4babaaed) and click on Share -> Publish.
+```
+zincor.github.io/
+ ├─ public/       # Static assets
+ ├─ src/
+ │   ├─ components/  # UI components
+ │   ├─ pages/       # Website pages
+ │   ├─ styles/      # Tailwind / global CSS
+ │   └─ utils/       # Helpers and configs
+ ├─ index.html
+ └─ vite.config.ts
+```
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🔗 Custom Domain
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If you are mapping to a custom domain:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Go to repo **Settings → Pages → Custom Domain**
+2. Add your domain (e.g. `zincor.ai`)
+3. Configure DNS with `CNAME` → `zincor.github.io`
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute with attribution.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions aligned with ZINCOR’s transparent-first philosophy.
+
+* Fork the repo
+* Create a feature branch
+* Submit a PR with a clear description
+
+---
+
+## 📬 Contact
+
+For business inquiries: **[info@zincor.ai](mailto:info@zincor.ai)**
+For technical issues: please open a **GitHub Issue** in this repository.
+
+---
