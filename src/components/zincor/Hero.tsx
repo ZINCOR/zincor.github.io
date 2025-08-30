@@ -1,21 +1,39 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
-import heroBackground from '@/assets/hero-background.jpg';
+import spaceBg from '@/assets/space-bg.jpg';
 
 export const Hero = () => {
   return (
     <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
-      {/* Background */}
-      <div 
-        className="absolute inset-0 bg-gradient-to-br from-surface-1 via-background to-surface-2"
-        style={{
-          backgroundImage: `url(${heroBackground})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundBlendMode: 'overlay'
-        }}
-      />
-      <div className="absolute inset-0 bg-background/80" />
+      {/* Animated Space Background */}
+      <div className="absolute inset-0">
+        <div 
+          className="absolute inset-0 bg-gradient-to-br from-background via-surface-1 to-surface-2"
+          style={{
+            backgroundImage: `url(${spaceBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundBlendMode: 'overlay'
+          }}
+        />
+        <div className="absolute inset-0 bg-background/60" />
+        
+        {/* Floating particles animation */}
+        <div className="absolute inset-0 overflow-hidden">
+          {[...Array(6)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute w-1 h-1 bg-primary/30 rounded-full animate-pulse"
+              style={{
+                left: `${20 + i * 15}%`,
+                top: `${30 + i * 10}%`,
+                animationDelay: `${i * 0.5}s`,
+                animationDuration: `${2 + i * 0.5}s`
+              }}
+            />
+          ))}
+        </div>
+      </div>
       
       {/* Content */}
       <div className="relative mx-auto max-w-7xl px-6 md:px-8">
