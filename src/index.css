@@ -110,7 +110,6 @@ All colors MUST be HSL for consistency
     --gradient-surface: linear-gradient(135deg, hsl(215 25% 9%), hsl(215 22% 12%));
   }
 }
-}
 
 @layer base {
   * {
